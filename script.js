@@ -1,5 +1,3 @@
-import { containerImage } from "./designer/design.js";
-
 let y;
 let x;
 let i = 1;
