@@ -87,42 +87,6 @@ function borderDesign(image) {
   }
 }
 
-// function stop(movement,image) {
-// const j = document.querySelector('.metal-box');
-// const a = document.querySelector('.non-metal-box');
-// const sense = document.querySelector('.sensor');
-// const boxnotMetal  = document.querySelector('.box-not-metal');
-// const boxMetal = document.querySelector('.box-metal');
-//     boxnotMetal.addEventListener("mousedown", () => {
-//       if (image.className === "non-metal") {
-//       addInContainer(image);
-//       j.classList.remove('add');
-//       a.classList.remove('add');
-//       sense.innerHTML = `<p class = "opaque">${image.id}</p>`;
-//       document.removeEventListener("mousemove", movement);
-//       boxnotMetal.classList.remove('box-notmetal-red');
-//       console.log(image.className);
-//       } else if (image.className === "metal") {
-//         sense.innerHTML = `<p class = "opaque">metal!!</p>`;
-//         j.classList.add('add');
-//       }
-// });
-
-//     boxMetal.addEventListener("mousedown", () => {
-//       if (image.className === "metal") {
-//       sense.innerHTML = `<p class = "opaque">${image.id}</p>`;
-//       addInContainer(image)
-//       j.classList.remove('add');
-//       a.classList.remove('add');
-//       document.removeEventListener("mousemove", movement);
-//       boxMetal.classList.remove('box-metal-red');
-//     } else if (image.className === "non-metal") {
-//       sense.innerHTML = `<p class = "opaque"> non-metal!!</p>`;
-//       a.classList.add('add');
-//     }
-//     });
-//   }
-
 // convert to vh/vw
 function leftX(leftClientX) {
   return (leftClientX / window.innerWidth) * 100;
