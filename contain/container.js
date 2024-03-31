@@ -78,7 +78,7 @@ export const imagess = [
   {
     class: "non-metal",
     id: "bottle",
-    link: "images/plastic-bottle.gif",
+    link: "images/plastic-Bottle.gif",
   },
   {
     class: "non-metal",
